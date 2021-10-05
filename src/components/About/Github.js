@@ -6,10 +6,10 @@ function Github() {
   const colourTheme = {
     background: "transparent",
     text: "#ffffff",
-    grade4: "gray",
-    grade3: "gray",
-    grade2: "gray",
-    grade1: "gray",
+    grade4: "purple",
+    grade3: "purple",
+    grade2: "purple",
+    grade1: "purple",
     grade0: "#ecd9fc",
   };
   return (

@@ -63,7 +63,7 @@ function Home2() {
           >
             <Tilt>
               <img
-                src="https://postimg.cc/xX8Y1QbF"
+                src="https://qtcinfotech.com/images/web-development/cms-website-development-service.gif"
                 className="img-fluid"
                 alt="avatar"
               />

@@ -42,7 +42,7 @@ function About() {
             className="about-img"
             data-aos="fade-down"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img src="https://www.igrowthmedia.com/wp-content/uploads/2020/11/application-development.gif" alt="about" className="img-fluid" />
           </Col>
         </Row>
         <h1 className="project-heading" data-aos="fade-up">

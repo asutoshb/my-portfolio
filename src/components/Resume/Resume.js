@@ -73,6 +73,12 @@ function Resume() {
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
+              title=" FULL STACK WEB DEVELOPMENT - Full Time  [ MASAI SCHOOL ] "
+              date="APR 2021 - DEC 2021"
+              content={["1300+ hours of hands-on coding experience.", " Solved 300+ Data Structure & Algorithm problems.",
+            "Received 100+ hours of Soft Skills training."]}
+            />
+            <Resumecontent
               title=" B.Tech ELECTRONICS & COMMUNICATION ENGINEERING  [ NIT MEGHALAYA ] "
               date="2016 - 2020"
               content={["CGPA: 8.94 First Class With Distinction "]}

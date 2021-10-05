@@ -9,13 +9,16 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple"> Asutosh Behera </span>
-            from <span className="purple"> Pune, Maharashtra, India.</span>
+            from <span className="purple"> Bhubaneswar, Odisha, India.</span>
             <br /> I have completed my graduation in Electronics Engineering.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
+            <li className="about-activity">
+              <ImPointRight /> Reading Novels
+            </li>
             <li className="about-activity">
               <ImPointRight /> Playing Cricket
             </li>

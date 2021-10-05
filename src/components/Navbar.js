@@ -42,7 +42,7 @@ function NavBar() {
         <Navbar.Brand href="/">
           <div>
             <img
-              src="https://logopond.com/logos/9fbc6ba08986a80180e56fb781e9d8a3.png"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbQHIU0sTXFFM--H3mrX4uq1cMwmYN96FJ4Q&usqp=CAU"
               alt=""
               style={{ height: "40px", borderRadius: "10px" }}
             />

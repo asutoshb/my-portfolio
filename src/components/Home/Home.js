@@ -1,9 +1,10 @@
 import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+import homeLogo from "../../Assets/about.jpg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import Tilt from "react-parallax-tilt";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -35,8 +36,10 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }} data-aos="fade-right">
-              <img src={homeLogo} alt="home pic" className="img-fluid" />
+            <Col md={5} style={{ paddingBottom: 20 }} data-aos="fade-down">
+              <Tilt>
+              <img src="https://i.postimg.cc/0yFHPTYM/as1-removebg-preview-1.png" alt="home pic" className="img-fluid" />
+              </Tilt>
             </Col>
           </Row>
         </Container>
