@@ -1,3 +1,18 @@
+/* html {
+  --section-background-color: linear-gradient(
+    to bottom left,
+    rgba(17, 16, 16, 0.582),
+    rgba(12, 8, 24, 0.904)
+  );
+
+  --image-gradient: linear-gradient(
+    to bottom left,
+    rgba(17, 16, 16, 0.678),
+    rgba(12, 10, 22, 0.863)
+  );
+
+  --imp-text-color: #f0195a;
+} */
 html {
   --section-background-color: linear-gradient(
     to bottom left,
@@ -11,7 +26,7 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #f0195a;
 }
 
 .purple {
@@ -58,13 +73,13 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: #8a498a;
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: #8a498a;
   border-radius: 12px;
 }
 
@@ -94,7 +109,7 @@ html {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #f0195a !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -191,7 +206,7 @@ html {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #f0195a;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -278,17 +293,17 @@ html {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #f0195a;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #f0195a !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #f0195a !important;
 }
 
 @media (max-width: 767px) {
@@ -368,7 +383,7 @@ html {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #68187a;
+  background: #f0195a;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -376,13 +391,13 @@ html {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  box-shadow: 0 0 15px #f0195a;
 }
 
 .home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  color: #f0195a;
+  box-shadow: 0 0 5px #f0195a;
+  text-shadow: 0 0 2px #f0195a;
 }
 
 .social-icons {
@@ -520,7 +535,7 @@ html {
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
+  background-color: #18131fd7 !important;
   border-color: #6d20c5d7 !important;
 }
 .btn:focus {
@@ -551,7 +566,7 @@ html {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  border: 1.7px solid #f0195a !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;

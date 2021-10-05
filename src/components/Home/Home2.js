@@ -53,6 +53,11 @@ function Home2() {
               <i>
                 <b className="purple"> React.js </b>
               </i>
+
+              <br />
+              <br />
+              I have an unending desire to learn and am thrilled to start working on real projects soon.
+              
             </p>
           </Col>
           <Col
@@ -113,7 +118,7 @@ function Home2() {
               <p
                 href="tel:+7978707771"
                 style={{
-                  color: "purple",
+                  color: "#f0195a",
                 }}
               >
                 +917978707771

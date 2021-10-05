@@ -2,6 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { AiFillGithub, AiFillMediumCircle } from "react-icons/ai";
 import { RiLiveLine } from "react-icons/ri";
+import {SiHashnode} from "react-icons/si"
 
 import "./proj.css";
 import { Col } from "react-bootstrap";
@@ -43,7 +44,7 @@ function ProjectCards(props) {
                 rel="noreferrer"
                 className="icon-colour  home-social-icons"
               >
-                <AiFillMediumCircle />
+                <SiHashnode />
               </a>
             </li>
             <li className="social-icons">
