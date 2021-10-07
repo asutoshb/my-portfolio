@@ -35,7 +35,7 @@ function Projects() {
               description="Medium is an American blog website where users can read blogs written by people around the world and can write their blog as well"
               link="https://github.com/shivam-singh-au17/ProjectMediumClone"
               linkmedium="https://asutoshblog.hashnode.dev/medium-clone"
-              linklive="#"
+              linklive="https://youtu.be/Guw7SuBP0VY"
             />
           </Col>
 
@@ -47,7 +47,7 @@ function Projects() {
               description="Frontend masters is an E-learning platform which provides frontend courses available in the market to its users"
               link="https://github.com/asutoshb/Frontend-Masters"
               linkmedium="https://asutoshblog.hashnode.dev/frontend-masters-clone-using-mongodb-database"
-              linklive="#"
+              linklive="https://youtu.be/pv39dRyC_o0"
             />
           </Col>
 
