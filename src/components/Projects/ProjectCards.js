@@ -2,11 +2,13 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { AiFillGithub, AiFillMediumCircle } from "react-icons/ai";
 import { RiLiveLine } from "react-icons/ri";
-import {SiHashnode} from "react-icons/si"
+import {SiHashnode, SiReact, SiNodedotjs, SiMongodb, SiCss3, SiJavascript} from "react-icons/si"
+
 
 import "./proj.css";
 import { Col } from "react-bootstrap";
 function ProjectCards(props) {
+  
   return (
     <Card className="project-card-view">
       <br />
@@ -16,16 +18,25 @@ function ProjectCards(props) {
         alt="card-img"
         style={{ height: "250px" }}
       />
+      
       <Card.Body>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
+        <br/>
+        <Card.Text style={{ textAlign: "center" }}>
+          <span>Tech Stack: </span> <br />
+          <span className="purple">{props.tech}</span>
+        </Card.Text>
+
+       
 
         <Col md={12} className="home-about-social">
-          <h1></h1>
+          
           <p>
             Find<span className="purple"> More </span>below
           </p>
+         
           <ul className="home-about-social-links">
             <li className="social-icons">
               <a

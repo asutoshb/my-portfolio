@@ -38,7 +38,7 @@ function Home() {
 
             <Col md={5} style={{ paddingBottom: 20 }} data-aos="fade-down">
               <Tilt>
-              <img src="https://i.postimg.cc/0yFHPTYM/as1-removebg-preview-1.png" alt="home pic" className="img-fluid" />
+              <img style={{borderRadius: "150px"}} src="https://i.postimg.cc/0yFHPTYM/as1-removebg-preview-1.png" alt="home pic" className="img-fluid" />
               </Tilt>
             </Col>
           </Row>

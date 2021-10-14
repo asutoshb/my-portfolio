@@ -33,6 +33,7 @@ function Projects() {
               isBlog={false}
               title="Medium Clone "
               description="Medium is an American blog website where users can read blogs written by people around the world and can write their blog as well"
+              tech="ReactJs  |  MongoDB  |  NodeJs  |  CSS"
               link="https://github.com/shivam-singh-au17/ProjectMediumClone"
               linkmedium="https://asutoshblog.hashnode.dev/medium-clone"
               linklive="https://youtu.be/Guw7SuBP0VY"
@@ -45,6 +46,7 @@ function Projects() {
               isBlog={false}
               title="Frontend masters Clone"
               description="Frontend masters is an E-learning platform which provides frontend courses available in the market to its users"
+              tech="Express  |  MongoDB  |  NodeJs  |  CSS"
               link="https://github.com/asutoshb/Frontend-Masters"
               linkmedium="https://asutoshblog.hashnode.dev/frontend-masters-clone-using-mongodb-database"
               linklive="https://youtu.be/pv39dRyC_o0"
@@ -57,6 +59,7 @@ function Projects() {
               isBlog={false}
               title="Grocery App"
               description="A simple grocery management application for users"
+              tech="ReactJs  |  CSS"
               link="https://github.com/asutoshb/grocery-store"
               linkmedium=""
               linklive="https://asutoshb.github.io/grocery-store/"
@@ -69,31 +72,14 @@ function Projects() {
               isBlog={false}
               title="Tic tac Toe Game"
               description="A simple tic-tac-toe game where users can play the game and see their history of moves as well"
+              tech="ReactJs  |  CSS"
               link="https://github.com/asutoshb/Tic-Tac-Toe-react"
               linkmedium="#"
               linklive="https://asutoshb.github.io/Tic-Tac-Toe-react/"
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-            />
-          </Col> */}
+          
         </Row>
       </Container>
     </Container>

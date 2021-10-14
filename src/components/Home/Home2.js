@@ -21,16 +21,13 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body" data-aos="fade-up">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
+              I fell in love with programming when I was in college and that motivated me to pursue my career as a full stack web developer.
+              
+              I am fluent in classics like
               <i>
                 <b className="purple"> Javascript. </b>
               </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
+               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> 
                 {/* and
@@ -54,8 +51,6 @@ function Home2() {
                 <b className="purple"> React.js </b>
               </i>
 
-              <br />
-              <br />
               I have an unending desire to learn and am thrilled to start working on real projects soon.
               
             </p>
@@ -122,6 +117,18 @@ function Home2() {
                 }}
               >
                 +917978707771
+              </p>
+            </h3>
+            
+            <h3>
+              Email:
+              <p
+                href="tel:+7978707771"
+                style={{
+                  color: "#f0195a",
+                }}
+              >
+                beheraasutosh132@gmail.com
               </p>
             </h3>
             <br /> <br />
