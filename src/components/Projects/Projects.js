@@ -49,7 +49,7 @@ function Projects() {
               tech="Express  |  MongoDB  |  NodeJs  |  CSS"
               link="https://github.com/asutoshb/Frontend-Masters"
               linkmedium="https://asutoshblog.hashnode.dev/frontend-masters-clone-using-mongodb-database"
-              linklive="https://youtu.be/pv39dRyC_o0"
+              linklive="https://project-frontend-clone.herokuapp.com/"
             />
           </Col>
 
@@ -79,7 +79,7 @@ function Projects() {
             />
           </Col>
 
-          
+
         </Row>
       </Container>
     </Container>
