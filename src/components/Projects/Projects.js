@@ -36,7 +36,7 @@ function Projects() {
               tech="ReactJs  |  MongoDB  |  NodeJs  |  CSS"
               link="https://github.com/shivam-singh-au17/ProjectMediumClone"
               linkmedium="https://asutoshblog.hashnode.dev/medium-clone"
-              linklive="https://youtu.be/Guw7SuBP0VY"
+              linklive="https://mediumapp.vercel.app/"
             />
           </Col>
 
