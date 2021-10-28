@@ -2,7 +2,9 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { AiFillGithub, AiFillMediumCircle } from "react-icons/ai";
 import { RiLiveLine } from "react-icons/ri";
-import {SiHashnode, SiReact, SiNodedotjs, SiMongodb, SiCss3, SiJavascript} from "react-icons/si"
+import {SiHashnode, SiReact, SiNodedotjs, SiMongodb, SiCss3, SiJavascript} from "react-icons/si";
+import { BsBoxArrowUpRight } from "react-icons/bs";
+
 
 
 import "./proj.css";
@@ -65,7 +67,7 @@ function ProjectCards(props) {
                 rel="noreferrer"
                 className="icon-colour  home-social-icons"
               >
-                <RiLiveLine />
+                <BsBoxArrowUpRight />
               </a>
             </li>
           </ul>
