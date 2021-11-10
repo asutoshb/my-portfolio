@@ -17,34 +17,7 @@ function About() {
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
-          <Col
-            md={7}
-            style={{
-              justifyContent: "center",
-              paddingTop: "30px",
-              paddingBottom: "50px",
-            }}
-          >
-            <h1
-              style={{ fontSize: "2.1em", paddingBottom: "20px" }}
-              data-aos="fade-right"
-            >
-              Know Who <strong className="purple">I'M</strong>
-            </h1>
-            <div data-aos="fade-right">
-              <Aboutcard />
-            </div>
-          </Col>
-          <Col
-            md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
-            data-aos="fade-down"
-          >
-            <img src="https://www.igrowthmedia.com/wp-content/uploads/2020/11/application-development.gif" alt="about" className="img-fluid" />
-          </Col>
-        </Row>
+       
         <h1 className="project-heading" data-aos="fade-up">
           Professional <strong className="purple">Skillset </strong>
         </h1>

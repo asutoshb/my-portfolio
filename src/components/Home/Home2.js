@@ -1,5 +1,8 @@
 import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { ImPointRight } from "react-icons/im";
+import Card from "react-bootstrap/Card";
+
 
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
@@ -18,42 +21,43 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description" data-aos="fade-right">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              ABOUT ME
             </h1>
-            <p className="home-about-body" data-aos="fade-up">
-              I fell in love with programming when I was in college and that motivated me to pursue my career as a full stack web developer.
-              
-              I am fluent in classics like
-              <i>
-                <b className="purple"> Javascript. </b>
-              </i>
-               My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> 
-                {/* and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b> */}
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js </b>
-              </i>
+            <Card className="quote-card-view">
+      <Card.Body>
+        <blockquote className="blockquote mb-0">
+          <p style={{ textAlign: "justify" }}>
+            Hi Everyone, I am <span className="purple"> Asutosh Behera </span>
+            from <span className="purple"> Bhubaneswar, Odisha, India.</span>
+            {/* <br /> I have completed my graduation in Electronics Engineering. */}<br/><br />
+            A highly dedicated and passionate full-stack web developer with excellent administrative and communication skills and the ability to write efficient code.
+            Looking forward to an exciting opportunity in a challenging role as a full-stack developer
+            <br />
+            <br />
+            Apart from coding, some other activities that I love to do!
+          </p>
+          <ul>
+            <li className="about-activity">
+              <ImPointRight /> Reading Novels
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Playing Cricket
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Writting Tech Blogs
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Travelling
+            </li>
+          </ul>
 
-              I have an unending desire to learn and am thrilled to start working on real projects soon.
-              
-            </p>
+          <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
+            "Strive to build things that make a difference!"{" "}
+          </p>
+          <footer className="blockquote-footer">Asutosh</footer>
+        </blockquote>
+      </Card.Body>
+    </Card>
           </Col>
           <Col
             md={4}
