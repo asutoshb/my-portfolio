@@ -14,7 +14,7 @@ function Particle() {
       }
     },
     color: {
-      value: "#1b1e34"
+      value: "#3b4068"
     },
     shape: {
       type: "polygon",

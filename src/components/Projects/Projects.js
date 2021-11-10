@@ -3,12 +3,14 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
+
 import Medium from "../../Assets/Projects/Medium.png";
 // import emotion from "../../Assets/Projects/emotion.jpeg";
 import Frontend from "../../Assets/Projects/Frontend.png";
 import Grocery from "../../Assets/Projects/Grocery.png";
 // import suicide from "../../Assets/Projects/suicide.png";
 import Tictac from "../../Assets/Projects/Tictac.png";
+import Quora from "../../Assets/Projects/Quora.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 function Projects() {
@@ -27,6 +29,20 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          {/* <Col md={5} className="project-card" data-aos="fade-right">
+            <ProjectCard
+              imgPath={Quora}
+              isBlog={false}
+              title="Quora Clone "
+              description="Quora is a place to gain and share knowledge. It’s a platform to ask questions and connect with people who contribute unique insights and answers. "
+              tech="ReactJs  |  Firebase  |  NodeJs  |  CSS | JavaScript"
+              link="https://github.com/santoshmcode/quora-clone"
+              linkmedium="https://asutoshblog.hashnode.dev/medium-clone"
+              linklive="https://mediumapp.vercel.app/"
+            />
+          </Col> */}
+
           <Col md={5} className="project-card" data-aos="fade-right">
             <ProjectCard
               imgPath={Medium}

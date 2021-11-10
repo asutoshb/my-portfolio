@@ -2,6 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { AiFillGithub, AiFillMediumCircle } from "react-icons/ai";
 import { RiLiveLine } from "react-icons/ri";
+import {FiGitlab} from "react-icons/fi"
 import {SiHashnode, SiReact, SiNodedotjs, SiMongodb, SiCss3, SiJavascript} from "react-icons/si";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 
@@ -14,7 +15,7 @@ function ProjectCards(props) {
   return (
     <Card className="project-card-view">
       <br />
-      <Card.Title><a href={props.linklive} target="_blank" style={{color:"whitesmoke"}}>{props.title}</a></Card.Title>
+      <Card.Title><a href={props.linklive} rel="noreferrer" target="_blank" style={{color:"whitesmoke"}}>{props.title}</a></Card.Title>
       <Card.Img
         src={props.imgPath}
         alt="card-img"
@@ -34,43 +35,28 @@ function ProjectCards(props) {
        
 
         <Col md={12} className="home-about-social">
+
           
           <p>
             Find<span className="purple"> More </span>below
+            
           </p>
+
+          <div style={{display: 'flex', justifyContent:'space-evenly'}}>
+            <div>
+             <a href={props.link} style={{textDecoration: 'none', color:'white'}}> <AiFillGithub  style={{height: '40px', width: '40px'}} /> </a>
+            </div>
+            <div>
+              <a href={props.linkmedium} style={{textDecoration: 'none', color:'white'}}><SiHashnode   style={{height: '40px', width: '40px'}} /></a>
+            </div>
+            <div>
+              <a href={props.linklive} style={{textDecoration: 'none', color:'white'}}><BsBoxArrowUpRight   style={{height: '40px', width: '40px'}} /></a>
+            </div>
+          </div>
+
          
-          <ul className="home-about-social-links">
-            <li className="social-icons">
-              <a
-                href={props.link}
-                target="_blank"
-                rel="noreferrer"
-                className="icon-colour  home-social-icons"
-              >
-                <AiFillGithub />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href={props.linkmedium}
-                target="_blank"
-                rel="noreferrer"
-                className="icon-colour  home-social-icons"
-              >
-                <SiHashnode />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href={props.linklive}
-                target="_blank"
-                rel="noreferrer"
-                className="icon-colour  home-social-icons"
-              >
-                <BsBoxArrowUpRight />
-              </a>
-            </li>
-          </ul>
+         
+          
         </Col>
         {/* <Button variant="primary" href={props.link} target="_blank">
           <BiLinkExternal /> &nbsp;
