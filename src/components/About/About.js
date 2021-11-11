@@ -16,7 +16,7 @@ function About() {
   return (
     <Container fluid className="about-section">
       <Particle />
-      <Container>
+      <Container fluid>
        
         <h1 className="project-heading" data-aos="fade-up">
           Professional <strong className="purple">Skillset </strong>

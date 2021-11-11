@@ -14,38 +14,17 @@ function Footer() {
           <h3> </h3>
         </Col>
         <Col md="4" className="footer-body">
-          <ul className="footer-icons">
-            <li className="social-icons">
-              <a
-                href="https://github.com/asutoshb"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiFillGithub />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://twitter.com/asutoshbehera5"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/asutosh-behera-491908190/"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
-          </ul>
+         <div style={{display: 'grid', marginLeft: 'auto',  width:'200px', gridTemplateColumns:'30% 30% 30%'}}>
+              <div>
+              <a href="https://github.com/asutoshb" style={{textDecoration: 'none', color:'white'}}> <AiFillGithub style={{height: '20px', width: '20px'}} /> </a>
+              </div>
+              <div>
+                <a href="https://twitter.com/asutoshbehera5" style={{textDecoration: 'none', color:'white'}}><AiOutlineTwitter style={{height: '20px', width: '20px'}} /></a>
+              </div>
+              <div>
+                <a href="https://www.linkedin.com/in/asutosh-behera-491908190/" style={{textDecoration: 'none', color:'white'}}><FaLinkedinIn style={{height: '20px', width: '20px'}} /></a>
+              </div>
+          </div>
         </Col>
       </Row>
     </Container>

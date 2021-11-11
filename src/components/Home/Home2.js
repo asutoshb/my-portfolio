@@ -11,13 +11,18 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { FaLinkedinIn } from "react-icons/fa";
 import TransitionsModal from "../Modal/ContactModal.jsx";
+import About from "../About/About.js";
+import Projects from "../Projects/Projects.js";
+import Techstack from "../About/Techstack.js";
+import Toolstack from "../About/Toolstack.js";
+import Github from "../About/Github.js";
 function Home2() {
   useEffect(() => {
     Aos.init({ duration: 1200 });
   });
   return (
     <Container fluid className="home-about-section" id="about">
-      <Container>
+      <Container fluid>
         <Row>
           <Col md={8} className="home-about-description" data-aos="fade-right">
             <h1 style={{ fontSize: "2.6em" }}>
@@ -75,43 +80,35 @@ function Home2() {
           </Col>
         </Row>
         <Row>
+          <Col lg={12} md={12}>
+            <About />
+          </Col>
+        </Row>
+        <Row>
+          <Col md={12}>
+            <Projects />
+          </Col>
+        </Row>
+        <Row>
           <Col md={12} className="home-about-social" data-aos="fade-up">
             <h1>FIND ME ON</h1>
+            <div style={{display: 'grid', marginLeft: 'auto', marginRight:'auto', width:'300px', gridTemplateColumns:'30% 30% 30%'}}>
+              <div>
+              <a href="https://github.com/asutoshb" style={{textDecoration: 'none', color:'white'}}> <AiFillGithub style={{height: '40px', width: '40px'}} /> </a>
+              </div>
+              <div>
+                <a href="https://twitter.com/asutoshbehera5" style={{textDecoration: 'none', color:'white'}}><AiOutlineTwitter style={{height: '40px', width: '40px'}} /></a>
+              </div>
+              <div>
+                <a href="https://www.linkedin.com/in/asutosh-behera-491908190/" style={{textDecoration: 'none', color:'white'}}><FaLinkedinIn style={{height: '40px', width: '40px'}} /></a>
+              </div>
+          </div>
+          <br/>
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/asutoshb"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/asutoshbehera5"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/asutosh-behera-491908190/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-            </ul>
+            
+            
             <h3>
               Contact No:
               <p
@@ -141,6 +138,7 @@ function Home2() {
         </Row>
       </Container>
     </Container>
+    
   );
 }
 export default Home2;

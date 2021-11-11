@@ -9,6 +9,7 @@ import Asutosh from '../../Assets/Asutosh3.png'
 
 import Aos from "aos";
 import "aos/dist/aos.css";
+import About from "../About/About";
 function Home() {
   useEffect(() => {
     Aos.init({ duration: 1200 });
@@ -46,6 +47,7 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
+      
     </section>
   );
 }

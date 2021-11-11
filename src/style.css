@@ -459,7 +459,6 @@ html {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
 }
 
 .project-card {
@@ -557,7 +556,6 @@ html {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
   color: white !important;
 }
 
@@ -616,7 +614,13 @@ html {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  color: white !important;
+}
+
+.contact-section {
+  position: relative !important;
+  padding-top: 110px !important;
+  padding-bottom: 150px !important;
   color: white !important;
 }
 
