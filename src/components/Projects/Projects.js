@@ -30,7 +30,7 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
-          {/* <Col md={5} className="project-card" data-aos="fade-right">
+          <Col md={5} className="project-card" data-aos="fade-right">
             <ProjectCard
               imgPath={Quora}
               isBlog={false}
@@ -38,10 +38,10 @@ function Projects() {
               description="Quora is a place to gain and share knowledge. It’s a platform to ask questions and connect with people who contribute unique insights and answers. "
               tech="ReactJs  |  Firebase  |  NodeJs  |  CSS | JavaScript"
               link="https://github.com/santoshmcode/quora-clone"
-              linkmedium="https://asutoshblog.hashnode.dev/medium-clone"
-              linklive="https://mediumapp.vercel.app/"
+              linkmedium="https://asutoshblog.hashnode.dev/experience-of-cloning-quora"
+              linklive="https://quora-app.netlify.app/"
             />
-          </Col> */}
+          </Col>
 
           <Col md={5} className="project-card" data-aos="fade-right">
             <ProjectCard
