@@ -45,7 +45,7 @@ export const Contact = () => {
             </h3>
             
             <h3>
-              Email:
+              EMAIL:
               <p
                 href="tel:+7978707771"
                 style={{
