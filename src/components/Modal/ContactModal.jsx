@@ -1,26 +1,20 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
-import Fade from "@material-ui/core/Fade";
-import { makeStyles, Modal } from "@material-ui/core";
+import Fade from "@mui/material/Fade";
+import { Modal, styled } from "@mui/material";
 import { useForm } from "@formcarry/react";
 import "./modalc.css";
 
-const useStyles = makeStyles((theme) => ({
-  modal: {
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  paper: {
-    border: "2px solid purple",
-    boxShadow: theme.shadows[5],
-    padding: theme.spacing(2, 4, 3),
-    backgroundColor: "#191227",
-  },
+// Create a styled component using @mui/material's styled function
+const ModalPaper = styled('div')(({ theme }) => ({
+  border: "2px solid purple",
+  boxShadow: theme.shadows[5],
+  padding: theme.spacing(2, 4, 3),
+  backgroundColor: "#191227",
+  textAlign: "center",
 }));
 
 export default function TransitionsModal() {
-  const classes = useStyles();
   const [open, setOpen] = React.useState(false);
 
   const handleOpen = () => {
@@ -30,20 +24,16 @@ export default function TransitionsModal() {
   const handleClose = () => {
     setOpen(false);
   };
-  // Call the `useForm` hook in your function component
+
   const { state, submit } = useForm({
     id: "lNcF77RzH4K",
-    
   });
-console.log(submit)
-console.log(state)
-  // Success message
+
   if (state.submitted) {
     return (
       <Modal
         aria-labelledby="transition-modal-title"
         aria-describedby="transition-modal-description"
-        className={classes.modal}
         open={open}
         onClose={handleClose}
         closeAfterTransition
@@ -53,17 +43,17 @@ console.log(state)
       >
         <Fade in={open}>
           <form onSubmit={submit}>
-            <div className={classes.paper} style={{ textAlign: "Center" }}>
+            <ModalPaper>
               <div style={{ color: "red" }}>
                 Thank you! We received your submission.
               </div>
-              <div></div>
-            </div>
+            </ModalPaper>
           </form>
         </Fade>
       </Modal>
     );
   }
+
   return (
     <div>
       <Button
@@ -73,12 +63,11 @@ console.log(state)
         onClick={handleOpen}
         style={{ marginTop: "-20px" }}
       >
-        Click To Send Messege
+        Click To Send Message
       </Button>
       <Modal
         aria-labelledby="transition-modal-title"
         aria-describedby="transition-modal-description"
-        className={classes.modal}
         open={open}
         onClose={handleClose}
         closeAfterTransition
@@ -88,9 +77,9 @@ console.log(state)
       >
         <Fade in={open}>
           <form onSubmit={submit}>
-            <div className={classes.paper} style={{ textAlign: "Center" }}>
+            <ModalPaper>
               <h2 id="transition-modal-title" style={{ color: "white" }}>
-                Send Messege
+                Send Message
               </h2>
               <div>
                 <input
@@ -119,7 +108,7 @@ console.log(state)
                   SUBMIT
                 </Button>
               </div>
-            </div>
+            </ModalPaper>
           </form>
         </Fade>
       </Modal>
