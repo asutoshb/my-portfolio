@@ -50,7 +50,7 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">EXPERIENCE</h3>
             <Resumecontent
-              title="Software Engineer @Vyapar"
+              title="Software Engineer-2 @Vyapar"
               date="December 2021 - Present"
               content={[
                 "Currently working on Bank reconciliation project",
