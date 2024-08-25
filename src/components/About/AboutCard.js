@@ -32,7 +32,7 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
+          <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)", marginBottom: 10 }}>
             "Strive to build things that make a difference!"{" "}
           </p>
           <footer className="blockquote-footer">Asutosh</footer>

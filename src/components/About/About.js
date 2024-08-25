@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
@@ -32,9 +31,6 @@ function About() {
         <br />
         <div data-aos="fade-up">
           <Toolstack />
-        </div>
-        <div data-aos="fade-right">
-          <Github />
         </div>
       </Container>
     </Container>

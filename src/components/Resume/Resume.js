@@ -53,8 +53,11 @@ function Resume() {
               title="Software Engineer-2 @Vyapar"
               date="December 2021 - Present"
               content={[
-                "Currently working on Bank reconciliation project",
-                "Working on Desktop app",
+                "Designed and implemented User Role Permission, increasing license sales by allowing users to share their company with different roles. Used Websocket and React.js",
+                "Enhanced user engagement with in-app notifications and empowered teams to generate campaigns. Used Electron Push Receiver, Firebase, and Clevertap",
+                "Developed E-invoice onboarding for seamless invoice management via Master India APIs",
+                "Created WhatsApp marketing strategies with personalized branding templates, boosting sales. Collaborated with Brands.live",
+                "Led Redux integration in the Electron app, ensuring successful product delivery"
               ]}
             />
             <h3 className="resume-title">Internship</h3>

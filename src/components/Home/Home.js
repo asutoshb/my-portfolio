@@ -38,9 +38,9 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }} data-aos="fade-down">
+            <Col md={5} style={{ paddingBottom: 20, width: 400 }} data-aos="fade-down">
               <Tilt>
-              <img style={{borderRadius: "160px"}} src={Asutosh} alt="home pic" className="img-fluid" />
+              <img style={{borderRadius: "30%"}} src={Asutosh} alt="home pic" className="img-fluid" />
               </Tilt>
             </Col>
           </Row>
