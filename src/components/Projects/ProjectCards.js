@@ -15,7 +15,7 @@ function ProjectCards(props) {
   return (
     <Card className="project-card-view">
       <br />
-      <Card.Title><a href={props.linklive} rel="noreferrer" target="_blank" style={{color:"whitesmoke"}}>{props.title}</a></Card.Title>
+      <Card.Title><a href={props.linklive} rel="noreferrer" target="" style={{color:"whitesmoke"}}>{props.title}</a></Card.Title>
       <Card.Img
         src={props.imgPath}
         alt="card-img"

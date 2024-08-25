@@ -65,7 +65,7 @@ function Projects() {
               tech="Express  |  MongoDB  |  NodeJs  |  CSS"
               link="https://github.com/asutoshb/Frontend-Masters"
               linkmedium="https://asutoshblog.hashnode.dev/frontend-masters-clone-using-mongodb-database"
-              linklive="https://project-frontend-clone.herokuapp.com/"
+              linklive="/project"
             />
           </Col>
 
