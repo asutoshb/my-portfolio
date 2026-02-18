@@ -4,7 +4,7 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 import Tilt from "react-parallax-tilt";
-import Asutosh from '../../Assets/Asutosh3.jpg'
+import Asutosh from '../../Assets/Asutosh3.png'
 
 import Aos from "aos";
 import "aos/dist/aos.css";
