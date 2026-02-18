@@ -50,6 +50,17 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">EXPERIENCE</h3>
             <Resumecontent
+              title="SDE 2 @Tessell India Pvt Ltd, Bangalore, India"
+              date="Apr 2025 - Present"
+              content={[
+                "Built an AI-powered NL→SQL platform with a React + TypeScript frontend and Spring Boot backend, leveraging a RAG-based knowledge engine (pgvector) and WebSocket streaming for real-time, schema-aware query execution. Tech stack: React.js, TypeScript, WebSocket",
+                "Implemented Alert Policy feature (ECIF) for Tessell’s Observability platform, enabling enterprise customers to configure metric-based alerts with multi-channel delivery, improving system reliability and customer satisfaction. Tech stack: React.js, TypeScript",
+                "Enhanced frontend security by replacing localStorage with in-memory accessToken and HttpOnly refreshToken, mitigating XSS/CSRF risks, ensuring PCI compliance, and enabling security certifications critical for onboarding enterprise DBaaS customers. Tech stack: React.js, TypeScript",
+                "Strengthened frontend security by implementing Subresource Integrity (SRI) for third-party scripts and styles, preventing tampered CDN resources from loading and ensuring PCI compliance. Tech stack: React.js, TypeScript",
+                "Implemented MFA with email OTP as a second authentication layer, reducing credential-based attacks, increasing user trust, and aligning with security best practices. Tech stack: React.js, TypeScript",
+              ]}
+            />
+            <Resumecontent
               title="Software Engineer-2 @Vyapar"
               date="December 2021 - Present"
               content={[
