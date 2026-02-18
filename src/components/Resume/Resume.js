@@ -10,10 +10,10 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 function Resume() {
   const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
-  const [spojRank, upadteSpojRank] = useState(0);
-  const [hackerrank, upadteHackerank] = useState(0);
-  const [sem, upadateSem] = useState(0);
-  const [cgpa, upadteCgpa] = useState(0);
+  const [, upadteSpojRank] = useState(0);
+  const [, upadteHackerank] = useState(0);
+  const [, upadateSem] = useState(0);
+  const [, upadteCgpa] = useState(0);
 
   useEffect(() => {
     axios

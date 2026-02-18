@@ -3,15 +3,6 @@ import React from "react";
 import { Row } from "react-bootstrap";
 
 function Github() {
-  const colourTheme = {
-    background: "transparent",
-    text: "#ffffff",
-    grade4: "purple",
-    grade3: "purple",
-    grade2: "purple",
-    grade1: "purple",
-    grade0: "#ecd9fc",
-  };
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>

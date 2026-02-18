@@ -1,9 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { AiFillGithub, AiFillMediumCircle } from "react-icons/ai";
-import { RiLiveLine } from "react-icons/ri";
-import {FiGitlab} from "react-icons/fi"
-import {SiHashnode, SiReact, SiNodedotjs, SiMongodb, SiCss3, SiJavascript} from "react-icons/si";
+import { AiFillGithub } from "react-icons/ai";
+import { SiHashnode } from "react-icons/si";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 
 
