@@ -9,7 +9,11 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 import "./proj.css";
 import { Col } from "react-bootstrap";
 function ProjectCards(props) {
-  
+  const hasBlogLink =
+    typeof props.linkmedium === "string" &&
+    props.linkmedium.trim() !== "" &&
+    props.linkmedium.trim() !== "#";
+
   return (
     <Card className="project-card-view">
       <br />
@@ -44,9 +48,16 @@ function ProjectCards(props) {
             <div>
              <a href={props.link} style={{textDecoration: 'none', color:'white'}}> <AiFillGithub  style={{height: '40px', width: '40px'}} /> </a>
             </div>
-            <div>
-              <a href={props.linkmedium} style={{textDecoration: 'none', color:'white'}}><SiHashnode   style={{height: '40px', width: '40px'}} /></a>
-            </div>
+            {hasBlogLink && (
+              <div>
+                <a
+                  href={props.linkmedium}
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  <SiHashnode style={{ height: "40px", width: "40px" }} />
+                </a>
+              </div>
+            )}
             <div>
               <a href={props.linklive} style={{textDecoration: 'none', color:'white'}}><BsBoxArrowUpRight   style={{height: '40px', width: '40px'}} /></a>
             </div>

@@ -11,6 +11,7 @@ import Grocery from "../../Assets/Projects/Grocery.png";
 // import suicide from "../../Assets/Projects/suicide.png";
 import Tictac from "../../Assets/Projects/Tictac.png";
 import Quora from "../../Assets/Projects/Quora.png";
+import Welth from "../../Assets/Projects/Welth.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 function Projects() {
@@ -29,6 +30,19 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={5} className="project-card" data-aos="fade-right">
+            <ProjectCard
+              imgPath={Welth}
+              isBlog={false}
+              title="Welth - AI Finance Platform"
+              description="An AI-powered financial management platform that helps you track, analyze, and optimize your spending with real-time insights."
+              tech="Next.js  |  TypeScript  |  Prisma  |  Tailwind CSS  |  Resend  |  Inngest"
+              link="https://github.com/asutoshb/Welth-Ai-Finance-platform"
+              linkmedium="#"
+              linklive="https://welth-ai-finance-platform-taupe.vercel.app/"
+            />
+          </Col>
 
           <Col md={5} className="project-card" data-aos="fade-right">
             <ProjectCard
